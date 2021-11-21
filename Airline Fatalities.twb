@@ -1,0 +1,1145 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0818.1843                               -->
+<workbook original-version='18.1' source-build='2021.2.2 (20212.21.0818.1843)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='2-1 (All Transportation )' inline='true' name='federated.0xhbqk81k1gipy14sevce1g3ufyb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='All Transportation' name='excel-direct.1ewzlur0vxhrzw19x23181p5o3e7'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Saurabh/Desktop/640/Week 3&amp;4/All Transportation .xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1ewzlur0vxhrzw19x23181p5o3e7' name='2-1' table='[&apos;2-1$&apos;]' type='table'>
+          <columns gridOrigin='A1:AL7:no:A1:AL7:0' header='no' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+            <column datatype='integer' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+            <column datatype='integer' name='F20' ordinal='19' />
+            <column datatype='integer' name='F21' ordinal='20' />
+            <column datatype='integer' name='F22' ordinal='21' />
+            <column datatype='integer' name='F23' ordinal='22' />
+            <column datatype='integer' name='F24' ordinal='23' />
+            <column datatype='integer' name='F25' ordinal='24' />
+            <column datatype='integer' name='F26' ordinal='25' />
+            <column datatype='integer' name='F27' ordinal='26' />
+            <column datatype='integer' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+            <column datatype='integer' name='F30' ordinal='29' />
+            <column datatype='integer' name='F31' ordinal='30' />
+            <column datatype='integer' name='F32' ordinal='31' />
+            <column datatype='integer' name='F33' ordinal='32' />
+            <column datatype='integer' name='F34' ordinal='33' />
+            <column datatype='integer' name='F35' ordinal='34' />
+            <column datatype='integer' name='F36' ordinal='35' />
+            <column datatype='integer' name='F37' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1ewzlur0vxhrzw19x23181p5o3e7' name='2-1' table='[&apos;2-1$&apos;]' type='table'>
+          <columns gridOrigin='A1:AL7:no:A1:AL7:0' header='no' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='F7' ordinal='6' />
+            <column datatype='integer' name='F8' ordinal='7' />
+            <column datatype='integer' name='F9' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='integer' name='F11' ordinal='10' />
+            <column datatype='integer' name='F12' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+            <column datatype='integer' name='F18' ordinal='17' />
+            <column datatype='integer' name='F19' ordinal='18' />
+            <column datatype='integer' name='F20' ordinal='19' />
+            <column datatype='integer' name='F21' ordinal='20' />
+            <column datatype='integer' name='F22' ordinal='21' />
+            <column datatype='integer' name='F23' ordinal='22' />
+            <column datatype='integer' name='F24' ordinal='23' />
+            <column datatype='integer' name='F25' ordinal='24' />
+            <column datatype='integer' name='F26' ordinal='25' />
+            <column datatype='integer' name='F27' ordinal='26' />
+            <column datatype='integer' name='F28' ordinal='27' />
+            <column datatype='integer' name='F29' ordinal='28' />
+            <column datatype='integer' name='F30' ordinal='29' />
+            <column datatype='integer' name='F31' ordinal='30' />
+            <column datatype='integer' name='F32' ordinal='31' />
+            <column datatype='integer' name='F33' ordinal='32' />
+            <column datatype='integer' name='F34' ordinal='33' />
+            <column datatype='integer' name='F35' ordinal='34' />
+            <column datatype='integer' name='F36' ordinal='35' />
+            <column datatype='integer' name='F37' ordinal='36' />
+            <column datatype='string' name='F38' ordinal='37' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AL7:no:A1:AL7:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F36</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F36]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F36</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F37</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F37]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F37</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F38</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F38]</local-name>
+            <parent-name>[2-1]</parent-name>
+            <remote-alias>F38</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-1_6E0B28B03004455B9768241634F60C70]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2-1' datatype='table' name='[__tableau_internal_object_id__].[2-1_6E0B28B03004455B9768241634F60C70]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2-1' id='2-1_6E0B28B03004455B9768241634F60C70'>
+            <properties context=''>
+              <relation connection='excel-direct.1ewzlur0vxhrzw19x23181p5o3e7' name='2-1' table='[&apos;2-1$&apos;]' type='table'>
+                <columns gridOrigin='A1:AL7:no:A1:AL7:0' header='no' outcome='2'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='F7' ordinal='6' />
+                  <column datatype='integer' name='F8' ordinal='7' />
+                  <column datatype='integer' name='F9' ordinal='8' />
+                  <column datatype='integer' name='F10' ordinal='9' />
+                  <column datatype='integer' name='F11' ordinal='10' />
+                  <column datatype='integer' name='F12' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='integer' name='F17' ordinal='16' />
+                  <column datatype='integer' name='F18' ordinal='17' />
+                  <column datatype='integer' name='F19' ordinal='18' />
+                  <column datatype='integer' name='F20' ordinal='19' />
+                  <column datatype='integer' name='F21' ordinal='20' />
+                  <column datatype='integer' name='F22' ordinal='21' />
+                  <column datatype='integer' name='F23' ordinal='22' />
+                  <column datatype='integer' name='F24' ordinal='23' />
+                  <column datatype='integer' name='F25' ordinal='24' />
+                  <column datatype='integer' name='F26' ordinal='25' />
+                  <column datatype='integer' name='F27' ordinal='26' />
+                  <column datatype='integer' name='F28' ordinal='27' />
+                  <column datatype='integer' name='F29' ordinal='28' />
+                  <column datatype='integer' name='F30' ordinal='29' />
+                  <column datatype='integer' name='F31' ordinal='30' />
+                  <column datatype='integer' name='F32' ordinal='31' />
+                  <column datatype='integer' name='F33' ordinal='32' />
+                  <column datatype='integer' name='F34' ordinal='33' />
+                  <column datatype='integer' name='F35' ordinal='34' />
+                  <column datatype='integer' name='F36' ordinal='35' />
+                  <column datatype='integer' name='F37' ordinal='36' />
+                  <column datatype='string' name='F38' ordinal='37' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet2 (auto-fatalities)' inline='true' name='federated.1rdqi7w01ifxcr1a6usa20h185d6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='auto-fatalities' name='excel-direct.10xrnw70xndl5n1d5rejh1gwpc0x'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Saurabh/Desktop/640/Week 3&amp;4/auto-fatalities.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.10xrnw70xndl5n1d5rejh1gwpc0x' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:F31:no:A1:F31:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Deaths' ordinal='1' />
+            <column datatype='real' name='VMT_Vehicle_Miles_Travelled_bn' ordinal='2' />
+            <column datatype='real' name='Fatalities_Per_100_Million_VMT' ordinal='3' />
+            <column datatype='integer' name='Population' ordinal='4' />
+            <column datatype='real' name='Fatalities_Per_100000_population' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.10xrnw70xndl5n1d5rejh1gwpc0x' name='Sheet2' table='[Sheet2$]' type='table'>
+          <columns gridOrigin='A1:F31:no:A1:F31:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Deaths' ordinal='1' />
+            <column datatype='real' name='VMT_Vehicle_Miles_Travelled_bn' ordinal='2' />
+            <column datatype='real' name='Fatalities_Per_100_Million_VMT' ordinal='3' />
+            <column datatype='integer' name='Population' ordinal='4' />
+            <column datatype='real' name='Fatalities_Per_100000_population' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:F31:no:A1:F31:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Deaths</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Deaths]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Deaths</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VMT_Vehicle_Miles_Travelled_bn</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[VMT_Vehicle_Miles_Travelled_bn]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>VMT_Vehicle_Miles_Travelled_bn</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatalities_Per_100_Million_VMT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fatalities_Per_100_Million_VMT]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Fatalities_Per_100_Million_VMT</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fatalities_Per_100000_population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Fatalities_Per_100000_population]</local-name>
+            <parent-name>[Sheet2]</parent-name>
+            <remote-alias>Fatalities_Per_100000_population</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Fatalities Per 100000 population' datatype='real' name='[Fatalities_Per_100000_population]' role='measure' type='quantitative' />
+      <column caption='Fatalities Per 100 Million VMT' datatype='real' name='[Fatalities_Per_100_Million_VMT]' role='measure' type='quantitative' />
+      <column caption='VMT Vehicle Miles Travelled bn' datatype='real' name='[VMT_Vehicle_Miles_Travelled_bn]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet2' datatype='table' name='[__tableau_internal_object_id__].[Sheet2_DAAAFE4B231744BBBB9A068D270AF687]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet2' id='Sheet2_DAAAFE4B231744BBBB9A068D270AF687'>
+            <properties context=''>
+              <relation connection='excel-direct.10xrnw70xndl5n1d5rejh1gwpc0x' name='Sheet2' table='[Sheet2$]' type='table'>
+                <columns gridOrigin='A1:F31:no:A1:F31:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Deaths' ordinal='1' />
+                  <column datatype='real' name='VMT_Vehicle_Miles_Travelled_bn' ordinal='2' />
+                  <column datatype='real' name='Fatalities_Per_100_Million_VMT' ordinal='3' />
+                  <column datatype='integer' name='Population' ordinal='4' />
+                  <column datatype='real' name='Fatalities_Per_100000_population' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet2 (auto-fatalities)' name='federated.1rdqi7w01ifxcr1a6usa20h185d6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1rdqi7w01ifxcr1a6usa20h185d6'>
+            <column caption='Fatalities Per 100 Million VMT' datatype='real' name='[Fatalities_Per_100_Million_VMT]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fatalities_Per_100_Million_VMT]' derivation='Sum' name='[sum:Fatalities_Per_100_Million_VMT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1rdqi7w01ifxcr1a6usa20h185d6].[sum:Fatalities_Per_100_Million_VMT:qk]</rows>
+        <cols>[federated.1rdqi7w01ifxcr1a6usa20h185d6].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{F3E6EC79-5C40-48C0-AC4E-DD4859EE4D2E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='75'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1rdqi7w01ifxcr1a6usa20h185d6].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7DA22A8D-C65C-42C8-8D3F-E4A200487B56}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
